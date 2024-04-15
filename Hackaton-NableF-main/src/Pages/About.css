@@ -1,0 +1,32 @@
+.body {
+    margin: 0 30px;
+    display: flex;
+    flex-direction:column;
+    gap:15px;
+    height: 90vh;   
+}
+
+.container {
+    flex-grow:4;
+    background-color: var(--main-opacity10);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container > div {
+    display:flex;
+    flex-direction:column;
+    width: 70%;
+}
+
+.container > div > h1 {
+    font-weight: 500;
+}
+
+.container > div > img {
+    align-self:center;
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+}

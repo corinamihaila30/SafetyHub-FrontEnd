@@ -1,0 +1,31 @@
+.login-form {
+    background-color: var(--main-opacity10);
+    border-radius:15px;
+    padding: 20px 15px;
+}
+
+input {
+    display: block;
+}
+
+.submit-button {
+    background-color: var(--secondary);
+    width:100%;
+}
+
+.login-container {
+    margin:10px;
+    display:flex;
+    gap:150px;
+    align-items:center;
+}
+
+.center-elements {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-form {
+    width: 400px;
+}

@@ -1,0 +1,29 @@
+.profile-container {
+    display:flex;
+    align-items:center;
+}
+
+.profile-settings-container {
+    padding-left:30px;
+    padding-top:20px;
+    background-color:var(--main);
+    flex-grow: 1;
+    align-self:stretch;
+}
+
+.profile-details-container {
+    flex-grow:5;
+    padding-left:20px;
+    background-color:var(--main-opacity10);
+}
+
+.profile-button {
+    background-color: var(--secondary);
+    margin-top:20px;
+    width: 20%;
+}
+
+.profile-input {
+    width:50%;
+}
+

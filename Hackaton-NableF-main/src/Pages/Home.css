@@ -1,0 +1,41 @@
+.home {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.home-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-desc {
+    background-color: var(--main-opacity10); 
+    border-radius: 15px;
+    padding: 35px 75px; 
+    width:100%;
+}
+
+.home-info {
+    align-self: end;
+    margin-top:60px;
+}
+
+.stay-informed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stay-informed > h1 {
+    font-weight:500;
+}
+
+.stay-informed > img {
+    width:52px; 
+    height:auto;
+}
